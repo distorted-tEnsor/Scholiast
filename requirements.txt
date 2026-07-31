@@ -1,0 +1,7 @@
+# ---- Currently used (Phase 0) ----
+requests      # lets Python talk to the local Ollama server
+
+# ---- Phase 1: reading papers + RAG (installed as we build) ----
+PyMuPDF          # pulls clean text out of academic PDFs
+chromadb       # local, on-disk database that searches by meaning
+sentence-transformers  # turns text into "meaning vectors" (runs locally)
